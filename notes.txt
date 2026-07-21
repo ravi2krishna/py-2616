@@ -148,3 +148,140 @@ Python Course
                     print(price) 
 
                 -> Python Cleans Up rating Memory, as this is never used in the program
+
+
+Class - 2
+==========
+
+    -> Programming Paradigms 
+
+        -> A programming paradigm is a relatively high-level way to conceptualize and 
+        structure the implementation of a computer program.
+
+        -> Problem: How To Reach Institute ? 
+
+            -> Solution 1: I'll come by Walk 
+
+            -> Solution 2: I'll come by Bike  
+
+            -> Solution 3: I'll come by Car  
+
+        
+        -> In Terms Of Programming Paradigms, We Have Two Popular Types 
+
+            -> Imperative Approach 
+
+                -> Focus is on "HOW TO DO"
+
+                -> Object Oriented Programming Approach 
+
+            -> Declarative Approach 
+
+                -> Focus is on "WHAT TO DO"
+
+                -> Functional Programming Approach 
+
+        -> NOTE: Python uses Multi Paradigm Approach i.e 
+        We can use Imperative & Declarative Approach
+
+            -> https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+
+
+    
+    -> Key Features Of Python / Why Python ?? 
+
+        -> Simplicity & Easy Readability 
+
+        -> High Level Language 
+
+        -> Garbage Collected & Memory Safe 
+
+        -> Dynamically Type Checked Language 
+
+        -> Multi Paradigm Support 
+
+        -> Open Source (FREE)
+
+        -> Versatility (*)
+
+            -> Data Oriented / Web Applications / API's / Automation / AI etc 
+
+    
+        -> List Of Popular Applications Where Python is used 
+
+            ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+
+
+    -> System Requirements For This Course (Practical Labs)
+
+            -> i3 / i5 processor 
+
+            -> 4 GB RAM / 8 GB RAM 
+
+            -> 500 GB HDD / 500 GB SSD 
+
+    
+    -> Softwares 
+
+            -> Install Python Interpreter 
+
+                -> https://python.org/ 
+
+                -> In Windows / Linux / MacOS 
+
+            
+            -> IDE: Integrated Development Environment 
+
+                -> Tool for writing code 
+                (syntax highlight, auto code completion, install plugins etc)
+
+                -> Visual Studio Code (VS Code)
+
+    
+    
+    -> Setup Python Environment 
+
+        -> Verify Python Installation 
+
+            -> Open Command Prompt (win) / Open Terminal (linux/macos)
+
+                -> python --version 
+
+                    -> It it say Python was not found; then start installing 
+
+        -> Install Python
+
+            -> https://python.org/ 
+
+            -> Select Standalone Installer (exe)
+
+            -> Download and Install exe file 
+
+            -> NOTE: Close and reopen the Command Prompt Again 
+
+                -> python --version 
+
+    
+    -> Where To Write Code ?? 
+
+       -> Command Line Mode (Not Recommended) 
+
+            -> We write code in Command Prompt 
+
+            -> Temporary, Once we close the session all the code is reset 
+
+            -> To Enter into Command Line Mode  
+
+                -> Open Command Prompt then type python 
+
+        
+        -> Script Mode (Recommended) 
+
+            -> We write code in Files Using IDE's i.e Visual Studio Code 
+
+            -> Permanent, Stored On Disk 
+
+            -> Open Visual Studio Code 
+
+
+
