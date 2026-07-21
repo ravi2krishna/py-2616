@@ -1,0 +1,150 @@
+Class - 1
+==========
+
+Python Course
+
+    -> Full Stack Development 
+
+        -> HTML / CSS / JS / SQL + (Django / FAST API)
+
+        -> Build Web Applications
+
+    -> Data Analytics / Data Science / Data Engineering / AI 
+
+        -> Numpy / Pandas / PyTorch etc 
+
+        -> Build Visualizations, Build Models, Data Pipelines, Build Agents   
+
+    -> Cloud / DevOps / Automation Testing 
+
+        -> OS / System / Boto3 etc 
+
+    
+    -> Course Name: Core Python, which is common for all above courses 
+
+    -> Python 
+
+        -> Python is a high-level, general-purpose programming language 
+        that emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation, an extensive ("batteries-included") 
+        standard library, and garbage collection.
+
+        
+        -> Python is a high-level programming language 
+
+            -> High Level Language
+
+                -> High Level Language Means "Human Understandable" Language (English)
+
+                -> Python Code Looks Like English 
+
+                    num1 = 1.5 
+                    num2 = 2.5
+                    sum = num1 + num2 
+
+            -> Low Level Language
+
+                -> Low Level Language Means "Machine Understandable" Language (Binary Language) - Binary Bits (1010101010101101)
+
+                -> 01110000 01111001 01110100 01101000 01101111 01101110 -> python
+
+
+        -> Python is a general-purpose programming language 
+
+            -> General Purpose Language
+
+                -> We can build "Multiple Types" Of Applications
+
+                    -> Desktop Applications ?? -> Yes 
+
+                    -> Web Applications ?? -> Yes 
+
+                    -> API's ?? -> Yes 
+
+                    -> Automation Scripts ?? -> Yes 
+
+
+            -> Domain Specific Language
+
+                -> We can build "Only Specific Type" Of Applications
+
+                -> SQL - Structured Query Language is a domain-specific language used to manage data, especially in a relational database management system.
+
+                    -> Desktop Applications ?? -> No 
+
+                    -> Web Applications ?? -> No 
+
+                    -> API's ?? -> No 
+
+                    -> Automation Scripts ?? -> No 
+
+
+        -> Python emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation.
+
+            -> Code Readability
+
+                Java Code 
+                ---------
+
+                class Main {
+
+                    public static void main(String[] args) {
+                        
+                        int first = 10;
+                        int second = 20;
+
+                        // add two numbers
+                        int sum = first + second;
+                        System.out.println(first + " + " + second + " = "  + sum);
+                    }
+                }
+
+                class
+                public
+                static
+                void
+                ;
+                ()
+                []
+                etc 
+
+
+                Python Code 
+                ------------
+
+                    num1 = 1.5 
+                    num2 = 2.5
+                    sum = num1 + num2 
+                    print(sum)
+
+            -> Indentation 
+
+                -> Indentation Refers To Code Structuring 
+
+                -> In Python We use "Spaces" For indentation 
+
+                -> ABC programming language
+
+                    -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsqyvXpDn9DRm9cfdxqyg2GxcxQIy53PBGa0h3ogqVgLtb9FB1HZ7rsvE&s=10
+                
+    -> extensive ("batteries-included") standard library, and garbage collection.
+
+        -> Extensive ("batteries-included") standard library
+
+            -> Python already provided 200+ Modules In standard library i.e 
+            when we install python we get all these out of box 
+
+
+        -> Garbage Collection    
+
+            -> Garbage collected means Automatically remove "Unused" Data 
+
+                    product = "iphone"
+                    price = 120000
+                    rating = 4.6
+
+                    print(product)
+                    print(price) 
+
+                -> Python Cleans Up rating Memory, as this is never used in the program
