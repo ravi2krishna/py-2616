@@ -285,3 +285,114 @@ Class - 2
 
 
 
+Class - 3
+==========
+
+    -> How To Write Code ?? 
+
+        -> Python Is Programming Language 
+
+        -> Any Language Has Rules 
+
+        -> Any Programming Language Also Has Rules i.e Syntax 
+
+        -> Comparing Programming Language With English Language
+
+            -> i taking class now today at 7:00 AM now (incorrect)
+
+            -> I'm taking class today at 7:00 AM (correct)
+
+    
+        -> Learn English (Language)
+
+            -> English has 26 Alphabets (abcd.......z)
+
+            -> Using these Alphabets, we Learned how to form words and 
+            complex sentences with proper grammar over the time 
+
+
+        -> Learn Python (Programming Language)
+
+            -> Python has 35 keywords (which are equivalent to Alphabets)
+
+            -> Using these keywords, we form Statements Using Some Syntax Over the time 
+
+            -> List Of Python Keywords 
+
+                -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+                    False      await      else       import     pass
+                    None       break      except     in         raise
+                    True       class      finally    is         return
+                    and        continue   for        lambda     try
+                    as         def        from       nonlocal   while
+                    assert     del        global     not        with
+                    async      elif       if         or         yield
+
+                -> NOTE: All the above keywords, hold some special meaning to 
+                Python Interpreter
+
+    
+    -> Python Syntax / Rules / Best Practices 
+
+        -> Any Python File We Write, should have extension as .py 
+
+            -> demo.py or app.py 
+
+        -> Python Ignores Any Line That Starts With # 
+
+            -> # Means Comments 
+
+        -> In Python We Have Functions, which does some task 
+
+            -> Functions have name function_name() 
+
+            -> NOTE: We Have print() - Prints Values On Standard Output 
+
+        -> When Working With Numeric Values (1,2,1.5,-10 etc)
+        we can directly use print()
+
+        -> When Working With Text Values, we call them as Strings 
+
+            -> Rule / Syntax: Strings should be enclosed in ' ' or " " 
+
+
+    
+    -> Identifiers 
+
+        -> An Identifier is a "Name" used to Uniquely Identify a piece of data in code
+
+            -> Variables 
+
+            -> Functions 
+
+            -> Classes 
+
+            -> Objects 
+
+            -> Methods  
+
+            -> etc 
+
+        -> Just Like Gmail Giving Invalid email for given input 
+
+            -> #%&@&@^@ (Enter a valid email)
+
+        -> Identifier Rules 
+
+            -> Can Contain 
+
+                -> Alphabets (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols (Only _ (underscore) is allowed)
+
+            -> Must Start With 
+
+                -> An Alphabet or _ (underscore)
+
+        -> NOTE: Always Use Proper Way Of Naming Identifiers 
+
+        -> NOTE: Always Use UPPER CASE for Static Data (Fixed / Doesn't Change)
+
+        
+
