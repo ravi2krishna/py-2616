@@ -395,4 +395,88 @@ Class - 3
         -> NOTE: Always Use UPPER CASE for Static Data (Fixed / Doesn't Change)
 
         
+Class - 4
+==========
+
+    -> Variables
+
+        -> A Variable is a named storage location in computers memory (RAM)
+        that holds some value or data.
+
+        -> Syntax 
+
+            -> variable_name = value   
+
+                -> variable_name should follow Identifier rules 
+
+                -> = Assignment Operator 
+
+                -> value is data you want to store 
+
+                    -> data = 10 (valid)
+
+                    -> data = ten (invalid)
+
+                    -> data = 'ten' (valid)
+
+        -> Variables Allow You To 
+
+            -> Assign Data (Store Data)
+
+            -> Retrieve Data (Get Data)
+
+            -> Manipulate Data (Change Data)
+
+
+    -> Combine Variables With Custom Statements 
+
+        -> Concatenation: Joining Strings Using + Operator
+
+        -> NOTE: When Combing Strings With Other Data types 
+        like int, float, boolean etc use , Operator 
+
+        -> NOTE: To Know what type of data you are dealing with 
+
+            -> We Use type() function 
+
+        -> NOTE: To Know Memory Address of Variable 
+
+            -> We Use id() function 
+
+        -> Memory Model In Python 
+
+            -> If a value is already present in the Memory,
+            Python will not create a new Memory block again.
+
+
+        -> Manipulate Data (Change Data)
+
+            -> We Need To Know "Operators"
+
+
+    
+    -> Operators     
+
+        -> Operators are "Symbols" and "Keywords", which performs 
+        Operations On Variables and their Values 
+
+        -> There are different Types Of Operators, to deal with different types of data 
+
+            -> Arithmetic Operators 
+
+            -> Compound Assignment Operators 
+
+            -> Comparison Operators 
+
+            -> Logical Operators 
+
+            -> Membership Operators 
+
+            -> Identity Operators 
+
+            -> Bitwise Operators 
+
+
+
+
 
