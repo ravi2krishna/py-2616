@@ -477,6 +477,78 @@ Class - 4
             -> Bitwise Operators 
 
 
+Class - 5
+==========
+
+    -> Arithmetic Operators 
+
+        -> To Perform Mathematical Calculations 
+
+            -> + - * / % 
+
+            -> // - floor division (same as division, buts rounds off result)
+
+            -> ** - exponentiation (Calculation of powers)
+
+        -> https://www.cardekho.com/tata/punch 
+
+            -> Calculate EMI 
+
+    
+    -> Compound Assignment Operators 
+
+        -> Assignment Operator is = (Used to Assign Value To Variable)
+
+        -> Compound Assignment Operators, Combine 
+        Arithmetic Operators with Assignment Operator for 
+        Short Hand Code (Concise Code)
+
+            -> x = 10 
+            -> x = x * 5 (long form)
+
+            -> x = 10 
+            -> x *= 5 (short form)
+
+            -> x += 20 -> Result = 30
+
+            -> NOTE: x = x * 5 and x *= 5, both does same Operation 
+
+        
+        -> NOTE: In Other Languages(like java), we have Increment & Decrement Operators 
+
+                -> Increment (++) - increase the value
+                -> Decrement (--) - decrease the value 
+
+                -> NOTE: Above Operators are not supported in python 
+
+
+    -> Comparison Operators 
+
+        -> Comparison Operators are used for Comparing Values
+        and result is in boolean type (True/False)
+
+        -> Used In Conditional Statements 
+
+            -> ==, !=, <, >, <=, >= 
+
+    
+    -> Comparison Operators 
+
+        -> Logical Operators are used for Performing Logical Operations
+
+        -> Used to check multiple conditions and result is in boolean type (True/False)
+
+            -> and: if both conditions are True, then only result is True, otherwise False
+            -> or: if one of the conditions is True, then result is True, otherwise False 
+            -> not: negates the result, if true then false and vice versa  
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
 
 
 
