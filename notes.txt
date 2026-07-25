@@ -532,7 +532,7 @@ Class - 5
             -> ==, !=, <, >, <=, >= 
 
     
-    -> Comparison Operators 
+    -> Logical Operators 
 
         -> Logical Operators are used for Performing Logical Operations
 
@@ -549,6 +549,94 @@ Class - 5
                             F       F           F         F         T       T 
 
 
+Class - 6
+==========
+
+    -> Operators Continued 
+
+    
+    -> Membership Operators 
+
+        -> Used For Checking if an object is in the given Sequence 
+
+            -> in: returns True, if given object is in Sequence, otherwise False 
+
+            -> not in: returns True, if given object is not in Sequence
+
+    
+    -> Identity Operators 
+
+        -> Used to check if objects are Same 
+
+            -> is: returns True, if Objects are same 
+
+            -> is not: returns True, if Objects are not same 
+
+        -> NOTE: Identity Operator compares the Identity(Memory Address) Of Objects 
+        
+
+    -> Bitwise Operators 
+
+        -> Used in Low Level Programming (101010101)
+
+            -> & - If both bits are 1, then result is 1, otherwise 0   
+
+            -> | - If one of the bits is 1, then result is 1, otherwise 0 
+
+            -> etc 
+
+    
+    
+    -> Data Types 
+
+        -> Data Types are "Categorization" that defines, what kind of data a 
+        variable can hold 
+
+        -> Numeric Types 
+
+            -> int: 1, 2, 3, 0, -1 etc 
+
+            -> float: 1.5, 2.0, -1.5 etc 
+
+            -> complex: In Maths We Have a + ib 
+
+                -> NOTE: In Python We use same concept using a + bj 
+
+        -> Boolean Types 
+
+            -> bool: Represents True / False 
+
+        -> None Type 
+
+            -> NoneType: Represents Absence Of Value 
+
+        -> String Type 
+
+            -> str: Represents Sequence Of Characters Enclosed in ' ' or " " 
+
+    
+    
+    -> Simple Data Types 
+
+        -> Holds Single Value In Variable 
 
 
+    -> Complex Data Types 
+
+        -> Holds Multiple Values In Variable 
+
+    
+    -> Complex Data Types 
+
+        -> Lists: List is a complex data type i.e it holds multiple values
+        and is represented using []
+
+        -> Tuples: Tuple is a complex data type i.e it holds multiple values
+        and is represented using ()
+
+        -> Sets: Set is a complex data type i.e it holds multiple values
+        and is represented using {}
+
+        -> Dictionaries: Dictionary is a complex data type i.e it holds multiple 
+        key values and is represented using {}
 

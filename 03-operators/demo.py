@@ -75,3 +75,55 @@ print(num1 > num2 or num3 < num4) # T or F -> T
 
 print(num1 < num2) # F
 print(not num1 < num2) # T
+
+print("========================")
+
+# Membership Operators 
+data = "python is programming language"
+find_word = "java"
+status = find_word in data
+print(status)
+
+data = "python is programming language"
+find_word = "python"
+status = find_word in data
+print(status)
+
+# List Data Type -> It's Complex Data Type To Store Multiple Values, represented using []
+list_employee_ids = [101,102,103,104,105,106,108,109,110]
+find_emp_id = 102
+status = find_emp_id in list_employee_ids
+print("Employee Found: ",status)
+
+find_emp_id = 120
+status = find_emp_id not in list_employee_ids
+print("Employee Not Found: ",status)
+
+print("========================")
+
+# Identity Operators 
+n1 = 10
+n2 = 5
+n3 = 10 
+
+print(n1 is n2) 
+
+print(id(n1))
+print(id(n2))
+print(id(n3))
+
+print(n1 is n3) 
+
+print(n1 is not n2) 
+
+print("========================")
+
+# Bitwise Operators 
+n1 = 5 # 0000000000000101
+n2 = 3 # 0000000000000011
+       # 0000000000000111
+       # 0000000000000001
+
+
+print(n1 & n2) # 1 -> 0000000000000001
+print(n1 | n2) # 7 -> 0000000000000111
