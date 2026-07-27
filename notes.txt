@@ -640,3 +640,63 @@ Class - 6
         -> Dictionaries: Dictionary is a complex data type i.e it holds multiple 
         key values and is represented using {}
 
+
+Class - 7
+==========
+
+    -> NOTE: All the Data Types We Discussed Earlier are Pre Defined in 
+    Python Standard Library 
+
+    -> NOTE: Based on custom Requirements coming from clients, 
+    we can create our own data types 
+
+        -> Syntax 
+
+            class CustomDataType:
+                Statements
+
+    
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion [Automatic]
+
+            -> Conversion of one data type to another data type, Automatically by python 
+
+            -> Type Conversion is SAFE i.e NO DATA LOSS 
+
+        
+        -> Type Casting / Explicit Conversion [Manual]
+
+            -> Conversion of one data type to another data type, Manually by Developer  
+
+            -> Type Casting is NOT SAFE i.e DATA LOSS 
+
+            -> Syntax 
+
+                -> using casting functions 
+
+                -> use data type function_name before variable_name / value 
+
+                    -> data_type(variable_name)
+                    -> data_type(value)
+                    -> num = int(10.2) 
+
+
+    -> Control Structures / Control Statements 
+
+        -> Control Structures Helps You Determine the "Flow Of Execution"
+        in Python Program, Allowing You To 
+
+            -> Make Decisions 
+
+            -> Repeat Tasks 
+
+        -> Python has given Three Types Of Control Structures 
+
+            -> Conditional Structures (Decision Making Statements)
+
+            -> Looping Structures (Iteration Statements) - Repetition
+
+            -> Branching Structures (Jump Statements) 
+
+        -> NOTE: To work with Control Structures, We Need "Indentation" Knowledge 
