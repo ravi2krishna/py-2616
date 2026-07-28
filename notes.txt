@@ -700,3 +700,83 @@ Class - 7
             -> Branching Structures (Jump Statements) 
 
         -> NOTE: To work with Control Structures, We Need "Indentation" Knowledge 
+
+
+Class - 8
+==========
+
+    -> Indentation in Python is a Mandatory Aspect of it's Syntax,
+    Used to define the "Structure" and "Hierarchy" in "Code Blocks"
+
+        -> Statement: Single Line Of Code 
+
+        -> Block: Multiple Lines Of Code 
+
+    -> Unlike Other Programming Language that use Curly Braces {} or Keywords 
+    to define block of code, Python entirely relies in "Consistent" Indentation 
+
+        -> Using Space as Indentation 
+
+    -> NOTE: Understanding Indentation means 
+
+            -> When to use Space 
+            -> When Not to use Space 
+            -> How many spaces to use
+
+    -> NOTE: Python Allows for any "Consistent Number Of Spaces"  
+    the widely accepted and Recommended standard is 4 Spaces (tab)
+
+
+    -> Conditional Structures (Decision Making Statements)
+
+        -> Used to run a "block of code" based on a condition result 
+
+        -> if 
+
+            -> runs a block of code, if the condition is True 
+
+            -> Syntax 
+
+                if condition:
+                    block of code 
+
+        
+        -> if else 
+
+            -> runs a block of code, if the condition is True 
+            runs another block of code, if the condition is False 
+
+            -> Syntax 
+
+                if condition: 
+                    block of code 
+                else:
+                    block of code 
+
+
+        -> NOTE: input() function, reads the input from user and stores the 
+        input value as String 
+
+
+        -> Interpolation 
+
+            -> Interpolation technique replaces, place holders with actual values dynamically
+
+            -> Using "f-strings" (Formatted String Literals)
+
+                -> We use f with print() and {} as place holders
+
+                -> https://printitnice.com/wp-content/uploads/2024/06/stkr22d023-01.webp
+
+
+        -> Conditional Expression 
+
+            -> Conditional Expression provides a concise way(short hand code)
+            to write if else condition in one single line 
+
+            -> NOTE: It evaluates a condition and returns one of two values 
+            based on whether the condition is True or False.
+
+            -> Syntax 
+
+                value_if_true if condition else value_if_false
