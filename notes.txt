@@ -780,3 +780,84 @@ Class - 8
             -> Syntax 
 
                 value_if_true if condition else value_if_false
+
+
+Class - 9
+==========
+
+    -> elif is keyword that stands for else if 
+
+        -> It is used in conditional statements to check "multiple conditions"
+
+        -> Syntax
+
+                if condition:
+                    statements
+                elif condition:
+                    statements
+                elif condition:
+                    statements
+                elif condition:
+                    statements
+                elif condition:
+                    statements
+                else:
+                    statements
+
+
+    -> match case 
+
+        -> The match/case statement (introduced in Python 3.10) is used for 
+       pattern matching 
+
+        -> In other languages we call it as switch-case
+
+        -> Syntax 
+
+            match expression:
+                case pattern_1:
+                    # code block 1    
+                case pattern_2:
+                    # code block 2
+                case pattern_3:
+                    # code block 3
+                .
+                .
+                .
+                case _:
+                    # default code block
+
+        -> NOTE: Use match case when
+
+            -> You are comparing one variable, Against fixed constant values
+                
+                Like:
+                    Menu options
+                    Days
+                    Status codes
+                    Roles
+
+            -> https://miro.medium.com/v2/0*emwCsVL6_veL1d0I
+
+        -> NOTE: Use elif when, you are checking conditions 
+
+            Like: 
+                Marks >= 90
+                Age >= 18
+                Salary >= 50000
+
+    
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
+
+        -> Nested conditions in Python involve placing an if or if/else statement 
+        inside another if, elif, or else block.
+
+        -> This allows the program to evaluate multiple criteria sequentially, 
+        where the inner condition is only checked if the outer condition is true. 
+
+    -> NOTE: Work On conditionals_tasks.md file which you can access from GitHub Link 
+
+        -> https://github.com/ravi2krishna/py-2616/tree/main/05_control_stmts
+

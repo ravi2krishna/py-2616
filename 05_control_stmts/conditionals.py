@@ -84,3 +84,59 @@ print("=================")
 # value_if_true if condition else value_if_false
 print("You Can Vote" if age >= 18 else "You Cannot Vote")
 # print(status)
+
+# student pass or failed 
+marks = int(input("Enter Marks: ")) 
+if marks >= 35:
+    print("Passed")
+else:
+    print("Failed")  
+
+# elif ladder 
+    
+# student Grades  
+marks = int(input("Enter Marks: ")) 
+
+if marks >= 85:
+    print("A Grade")
+elif marks >= 75:
+    print("B Grade")
+elif marks >= 65:
+    print("C Grade")
+elif marks >= 55:
+    print("D Grade")
+elif marks >= 45:
+    print("E Grade")
+elif marks >= 35:
+    print("F Grade")
+else:
+    print("Failed")
+    
+# match case 
+error_code = int(input("Enter Error Code You See: "))
+
+match error_code:
+    case 200:
+        print("Success OK")
+    case 404:
+        print("Not Found")
+    case 500:
+        print("Internal Server Error")
+    case _:
+        print("Unknown Error")
+
+role = input("Enter Your Role: ")
+
+match role:
+    case "admin":
+        print("Full Access")
+    case "student":
+        print("Read Only Access")
+    case "mentor":
+        print("Read & Write Only Access")
+    case _:
+        print("Unknown User Role")
+    
+
+
+    
