@@ -861,3 +861,58 @@ Class - 9
 
         -> https://github.com/ravi2krishna/py-2616/tree/main/05_control_stmts
 
+
+
+Class - 10
+==========
+
+    -> Looping Structures (Iteration Statements) - Repetition
+
+        -> Loops in Python are used to "repeatedly" execute a block of code 
+        until a specific condition is met or for each item in a sequence.
+
+            -> Repeatedly execute a block of code until a specific condition is met
+
+                -> Every Month Last 3 Days Send SMS / Email to customer about EMI till Loan is Repaid  
+
+            -> Repeatedly execute a block of code for each item in a sequence
+
+                -> Products Catalog With 15k Products (Ecommerce Platform)
+
+                    -> Original Price - Discount = Actual Price To Sell 
+
+        
+        -> The two primary types of loops are "while" loops and "for" loops
+
+        
+        -> while loop 
+
+            -> while loops execute a block of code repeatedly 
+            as long as a specified condition remains True
+
+                -> Example: Loan Pending True & Loan Repaid False
+
+            -> Syntax 
+
+                while condition:
+                    block of code 
+
+            -> NOTE: We use while loop, when we don't know number of
+            Iterations/Repetitions in advance
+
+        
+        
+        -> for loop
+
+            -> for loop is used to "iterate over a sequence" 
+            (like a list, tuple, string, or range) 
+
+            -> NOTE: For loop executes a block of code once, for each item in the sequence. 
+
+            -> Syntax 
+
+                for variable_name in sequence:
+                    block of code 
+
+            -> NOTE: We use for loop, when we know number of
+            Iterations/Repetitions in advance
