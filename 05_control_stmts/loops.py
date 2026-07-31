@@ -57,4 +57,43 @@ for price in prices_products:
 print("Prices After Discount")
 for price in prices_products:
     print(price - 250)
+
+print("========================")
     
+# range()
+# range(start,stop,step)
+# range(0,6,1) # start from zero, stop at 6(excluded) & increment by 1
+# [1,2,3,4,5]
+for num in range(6): # range(0,6,1)
+    print(num) 
+
+print("========================")
+
+for num in range(0,6,1):
+    print(num) 
+
+print("========================")
+
+for num in range(10,16,1):
+    print(num) 
+    
+print("========================")
+
+for num in range(5,55,5):
+    print(num) 
+    
+print("========================")
+
+for num in range(1,10,1):
+    print(num) 
+    
+print("========================")
+
+for num in range(10,1,-1):
+    print(num) 
+    
+print("========================")
+
+prices_products = [1000,1500,2000,2500,3000,3500,4000,4500,5000,50000]
+for price in range(1000,50000,500):
+    print(price)

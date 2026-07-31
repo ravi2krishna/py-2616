@@ -916,3 +916,47 @@ Class - 10
 
             -> NOTE: We use for loop, when we know number of
             Iterations/Repetitions in advance
+
+
+Class - 11
+==========
+
+    -> range() function 
+
+        -> The range() function in Python generates a sequence of numbers. 
+        It is commonly used for iterating a specific number of times in for loops.  
+
+        -> range(start, stop, step): This form generates a sequence of numbers 
+        starting from start (inclusive) up to, but not including, the stop value, 
+        with an increment of step. The step can be positive or negative.
+
+            range(start, stop, step)
+                -> start default is 0 (included) (inclusive)
+                -> stop at this value (excluded) (exclusive)
+                -> step is increment (default step is 1)
+
+
+    -> Nested Loops 
+
+        -> Loops inside Loops 
+
+        -> A nested loop in Python is a "loop placed inside the body of another loop". 
+
+
+    -> Branching Structures (Jump Statements) 
+
+        -> Used within loops, these statements also control the flow of execution, 
+        
+            -> allowing you to exit a loop early (break) 
+            
+            -> skip the current iteration (continue)
+
+                -> break: helps you exit loops 
+
+                -> continue: helps you skip the current iteration 
+
+                -> pass: acts as a placeholder, to do nothing 
+
+    
+
+
