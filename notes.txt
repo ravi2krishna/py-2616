@@ -958,5 +958,85 @@ Class - 11
                 -> pass: acts as a placeholder, to do nothing 
 
     
+Class - 12
+==========
+
+    -> Strings 
+
+        -> Strings are one of the most data types in any programming language 
+
+        -> https://www.instagram.com/accounts/emailsignup/?next= 
+
+            -> Signup Page Input Fields Will be Strings 
+
+        -> NOTE: Most of the inputs we process from web pages of an Application are Strings 
+
+    -> In Python String is a "Sequence Of Characters" Used to represent data 
+
+    -> Strings are widely used for Handling & Manipulating Text Information 
+
+    -> Syntax 
+
+        -> Strings can be enclosed in '' or "" "" or """ """ or ''' '''' 
+
+        -> Single Line Strings: Use '' or "" ""
+
+        -> Multi Line Strings: """ """ or ''' ''''  
+
+    
+    -> Rules When Defining Strings 
+
+        -> When you use single quote in a string, enclose them in double quotes 
+
+        -> When you use double quote in a string, enclose them in single quotes 
+
+        -> When you use both double quote and single quote in a string, enclose them in triple quotes 
+
+    
+    -> Accessing Strings 
+
+        -> Indexing 
+
+            -> String indexing in Python allows access to "individual characters within a string" 
+            using their "position", known as the "index".
+
+            -> Python uses zero-based indexing, meaning the first character is at index 0, 
+            the second at index 1, and so on.
+
+            -> Syntax 
+
+                -> print(string[index])
+
+            
+            -> Positive Indexing:
+            Starts from the beginning of the string.
+            The index of the first character is 0.
+
+            -> Negative Indexing:
+            Starts from the end of the string.
+            The index of the last character is -1.
+
+            0   1 2  3  4  5
+            p   y t  h  o  n
+            -6 -5 -4 -3 -2 -1   
+
+        -> If index is out of range, we get Index Error 
+
+        -> NOTE: TO know which actions you can perform on a data type use dir()
+
+        -> NOTE: TO know which object is Iterable use dir() and check if it has __iter__ 
 
 
+    -> Slicing
+
+        -> String slicing in Python is a method for "extracting a portion" (substring) 
+        from a larger string. It utilizes the slice operator [] with specific 
+        indices to define the desired segment.
+
+        -> Syntax 
+
+            string[start:end:step]
+
+            -> Earlier we used range()
+
+                range(start,end,step)
