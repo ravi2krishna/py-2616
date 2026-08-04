@@ -110,3 +110,38 @@ print(text[0:5:2]) #  -> pto
 print(text[-4:-1:1]) #  -> tho
 print(text[-4:-1:-1]) #  -> empty
 print(text[-4:-6:-1]) #  -> ty
+
+# String Concatenation
+s1 = "Hi "
+s2 = "Hello"
+print(s1+s2)
+
+# Formatted String Literals (f-strings)
+age = 30 
+# print("My age is "+age) # TypeError: can only concatenate str (not "int") to str
+print(f"My age is {age}")
+
+# String Repetition 
+laugh = "Haha"
+print(laugh)
+
+hard_laugh = laugh * 10
+print(hard_laugh)
+
+# String Immutability 
+greet = "hi"
+print(type(greet))
+print(greet)
+
+# Requirement is print Hi
+# print(greet[0])
+# greet[0] = 'H' # TypeError: 'str' object does not support item assignment
+# print(greet)
+
+greet = ['h','i'] # Here we can say list is Mutable Data Type 
+print(type(greet))
+# Requirement is print Hi
+print(greet[0]) # before change 
+greet[0] = 'H' 
+print(greet[0]) # after change
+
