@@ -1080,3 +1080,11 @@ Class - 13
         instead return a new string with the applied changes.    
 
         -> https://docs.python.org/3/library/stdtypes.html#string-methods    
+
+
+Class - 14
+==========
+
+    -> String Methods Continued 
+
+    

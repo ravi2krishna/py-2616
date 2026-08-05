@@ -51,4 +51,63 @@ elif contact_number.startswith("+1"):
 else:
     print("Invalid Number")
     
-# PAN CARD 
+# Simulate PAN CARD Functionality - Validations (Checks)
+# https://www.pan.utiitsl.com/
+# https://www.pan.utiitsl.com//PANform/forms/csf/preCSF - Build This
+pan = input("Enter PAN ID: ")
+print("Original PAN: "+pan) # @akll9912w
+
+# isalnum(): method returns True if the string contains only letters and numbers, otherwise False
+valid_pan = pan.isalnum() and len(pan) == 10
+print(f"Given PAN {pan} is {valid_pan}") 
+length_pan = len(pan)
+print("Length Of Pan: ",length_pan)
+
+# https://www.pancardapp.com/assets/img/form-pages/duplicate-pan-card/duplicate-pan-card.jpg
+# ABCDE1234A
+if len(pan) == 10:
+    first_five = pan[0:5:1] # ABCDE
+    middle_four = pan[5:9:1] # 1234 
+    last_one = pan[9] # A 
+    
+    # isalpha() method returns True if all characters in a string are alphabetic letters
+    # isdigit() method returns True if all characters in the string are digits
+    if first_five.isalpha() and middle_four.isdigit() and last_one.isalpha():
+        # upper() method returns Upper cased string 
+        print("Transforming Pan: "+pan.upper())
+    else:
+        print(f"Given Pan {pan} is Invalid")
+        
+else:
+    print("Pan Should be 10 Characters Exactly")
+    
+    
+# Simulate Data Operations Work: CSV Data from a file and perform some operations 
+# https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+# https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+# Name,Email,Age,City,Job_Role
+# emp_data = "John,john@apple.com,30,Hyderabad,Developer"
+# Requirement: Display Employee Name & Job Role
+
+emp_data = "John,john@apple.com,30,Hyderabad,Developer"
+emp_name = emp_data[0:4]
+print("Employee Name: ",emp_name)
+
+# Records Updated in future, employee transferred 
+emp_data = "Michael,michael@apple.com,30,Hyderabad,Developer"
+emp_name = emp_data[0:4]
+print("Employee Name: ",emp_name)
+
+# split() method breaks a string into a list of substrings based on a specified delimiter, default being space
+emp_data = "Michael,michael@apple.com,30,Hyderabad,Developer"
+data_splitted = emp_data.split()
+print(data_splitted)
+
+
+emp_data = "Michael,michael@apple.com,30,Hyderabad,Developer"
+emp_data = "michelangelo,michelangelo@apple.com,30,Hyderabad,Developer"
+data_splitted = emp_data.split(",")
+print(data_splitted)
+
+print("Employee Name: ", data_splitted[0])
+print("Employee Job Role: ", data_splitted[-1])
