@@ -1088,3 +1088,71 @@ Class - 14
     -> String Methods Continued 
 
     
+Class - 15
+==========
+
+    -> Simple Data Types 
+
+        -> Can hold "One Value" in a variable 
+
+            -> data = 10
+            -> data = 1.5
+            -> data = "hello" 
+
+
+    -> Complex Data Types 
+
+        -> Can hold "Multiple Values" in a variable 
+
+            -> data = 10,20,30,40,50
+            -> data = 1.5,2.5,0.5,10.0 
+            -> data = "hello","hi","hey"
+
+
+    -> Python Provides Following Classes To Work With Complex Data Types 
+
+        -> List 
+
+        -> Tuple
+
+        -> Dictionary
+
+        -> Set 
+    
+
+    -> List 
+
+        -> List is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Lists are represented using [] or using "list" class 
+
+    
+        -> Accessing Data In Lists
+
+            -> Like in Strings, we have index concept in lists too 
+
+            -> Index starts from Zero 
+
+            -> Supports Both Positive and Negative Index 
+
+            -> Slicing is same as Strings 
+
+            -> Loops we can Apply 
+
+            -> Operators we can Apply 
+
+            -> Conditionals we can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Insertion Order Is Preserved 
+
+        
+        -> List Characteristics 
+
+            -> Mutable 
+
+            -> Order Is Preserved
+
+            -> Duplicates Allowed 
