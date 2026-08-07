@@ -89,3 +89,10 @@ data = [10,20,30,40,50]
 print(data)
 backup = data.copy()
 print(backup)
+
+# Employee PAN ID's
+pan = ["ABCDE1234A","ABCDE1234B","ABCDE1234C","ABCDE1234D"]
+print(pan[0])
+# Test if id can be changed or not
+pan[0] = "ABCDE1234Z"
+print(pan[0]) # id is changed 
