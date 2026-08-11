@@ -1257,4 +1257,12 @@ Class - 16
 
             -> NOTE: Dictionaries are Mutable in nature (Can Be Changed)
 
-            
+
+Class - 17
+==========
+
+    -> Dictionaries Continued 
+
+    -> NOTE: Majority of cases, strings will be keys in Dictionaries
+
+    
