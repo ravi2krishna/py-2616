@@ -1265,4 +1265,61 @@ Class - 17
 
     -> NOTE: Majority of cases, strings will be keys in Dictionaries
 
+    -> Dictionary Characteristics 
+
+            -> Mutable 
+
+            -> Order Is Preserved
+
+            -> Duplicates Allowed In Terms Of Values, But for keys Uniqueness is there, 
+            latest will override the previous for keys 
+
     
+Class - 18
+==========
+
+    -> Sets 
+
+        -> Set is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Sets are represented using {} or using "set" class
+
+            -> Dictionary: {key1:value1,key2:value2,key3:value3}
+
+            -> Set: {value1,value2,value3}
+
+
+    -> Accessing Data In Sets
+
+            -> NOTE: Like in Strings, we have DON'T index concept in Sets
+
+            -> No Index 
+
+                -> No Support For Positive and Negative Index 
+
+                -> No Support For Slicing 
+
+            -> Loops we can Apply 
+
+            -> Operators we can Apply 
+
+            -> Conditionals we can Apply 
+
+            -> Duplicates NOT Allowed 
+
+            -> Insertion Order Is NOT Preserved 
+
+            -> NOTE: Sets are Mutable in nature (Can Be Changed)    
+
+            -> NOTE: To Easily Remember Sets (UUU)
+
+                -> U - Unique Data 
+                
+                -> U - Unordered Data
+
+                -> U - Unindexed Data 
+    
+            -> NOTE: With sets we can do Mathematical set operations (class X - XI)
+
+                -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
