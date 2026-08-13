@@ -71,3 +71,9 @@ print("=" * 20)
 
 # tuple Operations / Methods 
 print(dir(data))
+
+# frozenset 
+data = frozenset({10,20,30,40,50})
+print(data)
+print(type(data))
+print(dir(data))
