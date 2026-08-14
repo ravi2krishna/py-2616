@@ -1411,3 +1411,11 @@ Class - 19
         -> https://drive.google.com/file/d/1Yabj4nFUx_1g6eAw3EsEsopEWxivTK2Z/view?usp=sharing
 
         -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
+
+
+Class - 20
+==========
+
+    -> CURD Application Implementation
+
+    
