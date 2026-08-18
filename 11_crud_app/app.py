@@ -89,31 +89,130 @@ while True:
             
             print("========== Student Added ==========")
             
-            print(students) # After Adding Student
+            print(students) # After Adding Student 
         
     elif choice == "2":
         # Update Student 
         print("=" * 30)
         print("     Updating Student")
         print("=" * 30)
+        
+        student_id = input("Enter ID To Update: ") # 101
+                
+        if student_id in students:
+            new_name = input("Enter New Name: ").title()
+            students[student_id]['name'] = new_name
+            print("=" * 30)
+            print("Student Updated")
+            print("=" * 30)
+             
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)
+        
+        print(students) # After Updating Student 
 
     elif choice == "3":
         # Delete Student 
         print("=" * 30)
         print("     Deleting Student")
         print("=" * 30)
+        
+        student_id = input("Enter ID To Delete: ") # 101
+                        
+        if student_id in students:
+            students.pop(student_id)
+            print("=" * 30)
+            print("Student Deleted")
+            print("=" * 30)
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)
+        
+        print(students) # After Deleting Student 
+       
 
     elif choice == "4":
         # Read Student 
         print("=" * 30)
         print("     Reading Student")
         print("=" * 30)
+        
+        student_id = input("Enter ID To Read: ") # 101
+        
+        if student_id in students:
+            # Fetch Specific Student Data 
+            data = students[student_id]
+            
+            # {'101': {'name': 'Ravi', 'scores': [90], 'skills': {'python'}}}
+            # sid = 101
+            # data = {'name': 'Ravi', 'scores': [90,80], 'skills': {'python'}}
+            name = data['name'] # 'Ravi'
+            scores = data['scores'] # [90,80]
+            skills = data['skills'] # {'python'}
+            
+            # Average Score 
+            total_score = 0 # 0 + 90 + 80
+            count_scores = 0 # 0 + 1 + 1 
+            
+            for score in scores: # 90, 80 
+                total_score += score
+                count_scores += 1 
+            
+            average_score = total_score / count_scores
+            
+            # Highest Score 
+            high_score = scores[0] # 100
+            
+            for score in scores: # 90, 80, 100 
+                if score > high_score:
+                    high_score = score
+                    
+            # Lowest Score 
+            low_score = scores[0] # 100
+            
+            for score in scores: # 90, 80, 100 
+                if score < low_score:
+                    low_score = score
+            
+            # Skills Count
+            skill_count = 0
+            for skill in skills:
+                skill_count += 1
+            
+            # Reading Student Information
+            print("=" * 30)
+            print("     Reading Student Information")
+            print("=" * 30)
+            
+            print(f"ID: {student_id}")
+            print(f"Name: {name}")
+            print(f"All Scores: {scores}")
+            print(f"Average Score: {average_score}")
+            print(f"Highest Score: {high_score}")
+            print(f"Lowest Score: {low_score}")
+            print(f"All Skills: {skills}")
+            print(f"Skills Count: {skill_count}")
+
+            
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)        
 
     elif choice == "5":
         # Exit Application 
         print("=" * 30)
         print("     Exiting Application")
         print("=" * 30)
+    
+        # Display Admin Info 
+        print("=" * 50)
+        print(f"    Admin Contact Number {ADMIN_INFO[0]}")
+        print(f"    Admin Email ID {ADMIN_INFO[1]}")
+        print("=" * 50)
         break
         
     else:
