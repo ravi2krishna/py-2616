@@ -1431,3 +1431,64 @@ Class - 22
     -> CURD Application Implementation 
 
     
+Class - 23
+==========
+
+    -> Functional Programming
+
+        -> In computer science, functional programming is a programming paradigm 
+        where programs are constructed by applying and composing "functions"
+
+    -> Functions 
+
+        -> In Python, a function is a named, "reusable block of code" that performs 
+        a specific task, takes input (arguments), processes data, 
+        and can return an output.
+
+    -> Why Functions 
+
+        -> Functions can break down complex problems into smaller and
+        simpler manageable sub tasks for promoting code modularity. 
+
+        -> Once defined a function, it can be "called multiple times", so that 
+        we can achieve code reusability.
+
+    
+    -> Functions are defined using "def" keyword, followed by function name,
+    parenthesis(which may contain parameters), and a colon:
+    the code within the function is indented 
+
+        -> Syntax
+
+            def function_name():
+                statements
+
+            def function_name(parameters):
+                statements
+
+        -> NOTE: calling function is must
+
+            function_name()
+            function_name(parameters)
+
+
+        -> Python functions can be defined to accept "parameters" 
+        which can act as placeholders for values that will be 
+        passed into function when called. 
+        
+            -> Values passed to the function we call them as "arguments"
+
+            -> We use parameters to make functions dynamic in nature
+
+    
+    -> Based On Arguments Passed To Functions, We Got Five Types 
+
+        -> Positional Arguments 
+
+        -> Keyword Arguments 
+
+        -> Default Arguments 
+
+        -> Arbitrary Positional Arguments 
+
+        -> Arbitrary Keyword Arguments 
