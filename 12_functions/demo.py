@@ -202,4 +202,128 @@ def cart_value_value(*products):
     print(f"Total Cart Value is {total_cart}")    
 
 cart_value_value(1999.00,299.00,3049.00)
+
+print("=" * 50)    
     
+# Arbitrary Keyword Arguments 
+def profile(**info):
+    print(info)
+    
+# profile("ravi") # TypeError: profile() takes 0 positional arguments but 1 was given
+profile(fname="Ravi")
+profile(fname="ravi",lname="krishna",mobile=999999999)
+
+print("=" * 50)   
+
+def profile(**info):
+    for data in info:
+        # print(data) # key 
+        print(info[data]) # value 
+
+profile(fname="ravi",lname="krishna",mobile=999999999)
+
+print("=" * 50)   
+
+# Real World Use Case -> jan=3000, feb=4500, mar=9000
+# Real World Use Case -> jan=3000, feb=4500, mar=9000, apr=6000
+# Real World Use Case -> jan=3000, feb=4500, mar=9000, apr=6000, may=3000
+# Requirement: Calculate Total Transaction Amount and Number Of Transactions Made
+
+def bank_transactions(**transactions):
+    print(transactions)
+    total_transactions_value = 0
+    total_transactions_count = 0
+    for transaction in transactions:
+        total_transactions_value += transactions[transaction]
+        total_transactions_count += 1
+    print(f"Total Transactions Amount is {total_transactions_value} for {total_transactions_count} Transactions")
+    
+bank_transactions(jan=3000, feb=4500, mar=9000)
+bank_transactions(jan=3000, feb=4500, mar=9000, apr=6000, may=3000, jun=5000)
+
+print("=" * 50)   
+
+# return keyword 
+
+# without return keyword 
+def add(a,b):
+    a + b 
+    
+add(10,20)
+print(add(10,20))
+
+print("=" * 50)  
+
+# with return 
+def add(a,b):
+    return a + b
+
+add(100,200)
+print(add(100,200))
+
+print("=" * 50)  
+
+# Problem 
+# def add(a,b):
+#     print(a+b)
+
+# # function composition    
+# def sub(c,d,e): # add c & d then minus e --> c + d - e 
+#     print(add(c,d) - e) # None - 5 
+    
+# sub(3,4,5) # 3 + 4 - 5 = 2  # TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+
+
+# Problem Fixed with return 
+def add(a,b):
+    return a+b # 7
+
+# function composition    
+def sub(c,d,e): # add c & d then minus e --> c + d - e 
+    print(add(c,d) - e) # 7 - 5 
+    
+sub(3,4,5)    
+
+print("=" * 50) 
+
+# If you use return, make sure it's the last part of statement to be executed    
+def add(a,b):
+    print("Calculation Started")
+    return a + b 
+    print("Calculation Completed") # Code is structurally unreachable
+
+print(add(1,2))
+
+print("=" * 50)     
+    
+# If you have multiple return statements, first return will be considered 
+a = 50
+a = 60
+a = 70
+print(a) # 70
+
+print("=" * 50)  
+
+def math_ops(num1,num2):
+    return num1 + num2 
+    return num1 - num2 # Code is structurally unreachable
+    return num1 * num2 # Code is structurally unreachable 
+
+print(math_ops(2,3))
+
+print("=" * 50) 
+
+# If multiple returns are present, and used with conditionals, you can control the flow  
+def math_ops(num1,num2,operator):
+    if operator == "+":
+        return num1 + num2 
+    elif operator == "-":
+        return num1 - num2
+    elif operator == "*":
+        return num1 * num2 
+    else:
+        return "Invalid Operator"
+
+print(math_ops(2,3,"+"))
+print(math_ops(2,3,"*"))
+print(math_ops(2,3,"@"))

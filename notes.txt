@@ -1546,3 +1546,42 @@ Class - 24
         -> This parameter will then collect all the positional arguments 
         passed to the function into a tuple. 
 
+
+Class - 25
+==========
+
+    -> Arbitrary Keyword Arguments 
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+        a unknown number of Keyword arguments. 
+        This is achieved by placing an asterisk (**) before a parameter name 
+        in the function definition. 
+
+        -> This parameter will then collect all the Keyword arguments 
+        passed to the function into a Dictionary, 
+        where names will be keys and value is value 
+
+    
+    -> return 
+
+        -> In Python, the "return" keyword is used within a function 
+        to send a value back to the part of the code that called the function.
+
+            -> Task -> O/P -> I/P Another Task (Fails)
+
+            -> Task -> return O/P -> I/P Another Task (Succeed) 
+
+        -> When working with function composition (function calling another function), 
+        return will be helpful
+
+        -> NOTE: when you don't use a return, by default a function returns None 
+
+
+        -> If you use return, make sure it's the last part of statement to be executed   
+
+        -> If you have multiple return statements, first return will be considered 
+
+        -> If multiple returns are present, and used with conditionals, 
+        you can control the flow 
