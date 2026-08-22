@@ -327,3 +327,77 @@ def math_ops(num1,num2,operator):
 print(math_ops(2,3,"+"))
 print(math_ops(2,3,"*"))
 print(math_ops(2,3,"@"))
+
+print("=" * 50) 
+
+# Local Scope 
+def add():
+    la = 10 # local - inside the function
+    lb = 20 # local - inside the function
+    # accessing within the function    
+    print(la)
+    print(lb)
+    
+add()
+
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+# print(lb) # NameError: name 'lb' is not defined
+
+print("=" * 50) 
+
+# Parameters we pass to the functions, are also local variables 
+def add(la,lb): # local - la and lb are parameters to function
+    print(la)
+    print(lb)
+
+add(30,40)   
+
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+print("=" * 50) 
+
+# Global Scope 
+ga = 100 # global - outside the function
+
+def add(la,lb):
+    print(la)
+    print(lb)
+    print(ga) # global accessed inside the function 
+    
+add(50,60)
+print(ga)
+
+print("=" * 50) 
+
+# Name Conflicts
+ga = 500 # global - outside the function
+
+def add(la,lb,ga): # ga is local here 
+    print(la)
+    print(lb)
+    print(ga)
+    print(globals()['ga']) # want to access 500 
+    
+add(1,2,3)
+
+print("=" * 50) 
+
+# global variable outside the function 
+count = 0 
+print(count)
+count += 1 
+print(count)
+
+print("=" * 50) 
+
+# global variable inside the function 
+count = 0 
+print(count)
+def increment():
+    global count 
+    count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+    return count 
+
+print(increment())
+
+print("=" * 50) 
