@@ -401,3 +401,52 @@ def increment():
 print(increment())
 
 print("=" * 50) 
+
+# Without Lambda Functions i.e Standard Functions 
+def add(a,b):
+    return a + b 
+print(add(200,300))
+
+print("=" * 50) 
+
+# With Lambda Functions
+# lambda arguments:expression 
+lambda a,b:a+b 
+# print((lambda_function)(arguments)) # IILE 
+print((lambda a,b:a+b)(4,5)) 
+
+print("=" * 50) 
+
+# Without Lambda Functions i.e Standard Functions 
+def is_even_num(num):
+    if num % 2 == 0:
+        return True 
+    else:
+        return False 
+
+print(is_even_num(11))
+print(is_even_num(10))
+
+print("=" * 50) 
+
+# With Lambda Functions
+# lambda arguments:expression 
+lambda num:num % 2 == 0 
+print((lambda num:num % 2 == 0 )(5))
+print((lambda num:num % 2 == 0 )(7))
+print((lambda num:num % 2 == 0 )(6))
+
+print("=" * 50) 
+
+# Without Lambda Functions i.e Standard Functions
+def employee_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")
+
+employee_info(emp_location="Hyderabad",emp_name="Ravi",emp_email="ravi2krishna@gmail.com") # Keyword Arguments 
+
+print("=" * 50)
+
+# With Lambda Functions
+# lambda arguments:expression 
+lambda emp_name,emp_email,emp_location:f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}"
+print((lambda emp_name,emp_email,emp_location:f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")(emp_location="Pune",emp_name="Mike",emp_email="mike@gmail.com"))

@@ -1688,4 +1688,38 @@ Class - 26
         -> NOTE: Generally Lambda Functions Will be attached with Higher Order Functions 
 
 
+Class - 27
+==========
+
+    -> Lambda Functions 
+
+    
+    -> Higher Order Functions 
+
+        -> Higher Order Functions Performs Operations On Iterables 
+
+        -> Concise Code, Without Writing Lengthy / Verbose Code 
+        Using Loops & Conditionals 
+
+        -> Used to transform and manipulate collections without explicit for loops
+
+        -> NOTE: Imperative vs Declarative (How To Do vs What To Do)
+
+
+        -> map() 
+
+            -> map() function applies a given function to each item 
+            in an Iterable/Collection and returns an Iterator containing results.
+
+            -> map() function provide a Concise way to perform "Data Transformations" 
+            on collections without writing loops / lengthy code. 
+
+            -> Syntax 
+
+                map(function,Iterable) 
+
+            -> NOTE: Just Like Using For Loop With Standard Functions 
+
+            -> NOTE: Used Widely In Data Transformations 
+
 
