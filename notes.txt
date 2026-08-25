@@ -1723,3 +1723,24 @@ Class - 27
             -> NOTE: Used Widely In Data Transformations 
 
 
+Class - 28
+==========
+
+    -> map() - Implementation 
+
+        
+    -> filter()
+
+        -> The filter() function in Python is a built-in function used to construct an iterator 
+        from elements of an iterable for which a function returns true. 
+        It is a powerful tool for "selectively extracting data" based on a "given condition".
+
+        -> Syntax 
+
+            filter(function,Iterable)
+
+        -> NOTE: Just Like Using For Loop and Conditionals With Standard Functions  
+
+        -> NOTE: Used Widely In Data Extractions 
+
+        
