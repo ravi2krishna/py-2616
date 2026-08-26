@@ -1744,3 +1744,19 @@ Class - 28
         -> NOTE: Used Widely In Data Extractions 
 
         
+
+Class - 29
+==========
+
+    -> Implement CRUD Application Using Functional Style (11_crud_app)
+
+        -> Additionally Implement "Search Students By Skill" - Use Lambda & Higher Order Functions 
+
+    
+    -> NOTE: Reusability In Terms Of "Code Blocks", We Used Functions 
+
+    -> NOTE: Reusability In Terms Of "File", We Use Modules 
+
+    -> NOTE: Reusability In Terms Of "Folder", We Use Packages 
+
+    -> NOTE: Packages Contain Modules and Modules Contain Function 
