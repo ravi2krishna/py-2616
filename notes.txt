@@ -1760,3 +1760,43 @@ Class - 29
     -> NOTE: Reusability In Terms Of "Folder", We Use Packages 
 
     -> NOTE: Packages Contain Modules and Modules Contain Function 
+
+
+
+Class - 30
+==========
+
+    -> Modules
+
+        -> A Module is a "Simple Python File" which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+
+        -> Syntax 
+
+            -> import module (imports complete module i.e loading all functionalities in module)
+
+            -> from module import specific_functionality (imports only what you need) # Recommended
+
+        
+        -> Types Of Modules 
+
+            -> Inbuilt Modules 
+
+                -> Provided as part of Standard Python Library 
+
+                -> math module provides access to common mathematical functions and constants
+
+                -> Python Inbuilt Modules - https://docs.python.org/3/py-modindex.html
+
+
+            -> User Defined Modules 
+
+                -> Created By Developers For Custom Requirements    
+
+                -> NOTE: Here Module Name Is Nothing But File Name 
+
+                -> Requirement: User/Customer needs arithmetic operations and profile related information
