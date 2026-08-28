@@ -1800,3 +1800,56 @@ Class - 30
                 -> NOTE: Here Module Name Is Nothing But File Name 
 
                 -> Requirement: User/Customer needs arithmetic operations and profile related information
+
+
+Class - 31
+==========
+
+    -> External Modules 
+
+        -> Provided By 3rd Party Vendors 
+
+            -> https://pypi.org/ 
+
+        -> The Python Package Index (PyPI) is a repository of software for the 
+        Python programming language.
+
+        -> NOTE: To Work With External Modules / Packages / Library, we need pip 
+
+        -> Pip is the standard package manager for Python used to 
+        install and manage software libraries and packages from the 
+        Python Package Index (PyPI). 
+
+        -> Syntax 
+
+            -> pip install package_name / library_name / module_name 
+
+        -> Data Analyst 
+
+            -> https://pypi.org/project/pandas/
+
+            -> pip install pandas 
+
+        -> Full Stack Developer 
+
+            -> https://pypi.org/project/requests/
+
+            -> pip install requests 
+
+        -> NOTE: Use case for an external module 
+
+            -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
+
+    
+        -> requests 
+
+            -> The requests library is the standard, third-party HTTP client for Python. 
+            It allows you to send HTTP/1.1 requests to interact with web pages, 
+            download assets, and consume REST APIs using clean, human-readable code.
+
+        -> NOTE: In Python, modules, packages, and libraries are hierarchical ways 
+        of organizing and reusing code. The fundamental difference lies in their scale: 
+        a module is a single file, a package is a directory of modules, 
+        and a library is a collection of related packages.
+
+        
