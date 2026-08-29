@@ -1852,4 +1852,54 @@ Class - 31
         a module is a single file, a package is a directory of modules, 
         and a library is a collection of related packages.
 
+
+Class - 32
+==========
+
+    -> Packages 
+
+        -> A Folder With "Multiple Modules" (Multiple Python Files)
+
+        -> A Package contains special file named as __init__.py 
+
+        -> __init__.py can be empty, but generally we keep 
+        startup information or startup data configuration
+
+        -> In Order To Use Package, use the name of the folder 
+
+        -> Syntax 
+
+            from package_name import module 
+
+            from package_name.module_name import function_name 
+
+    
+    
+    
+    -> File Management With Python
+
+        -> After executing 12_functions/app.py 
+        We can confirm the data is being stored "Temporarily" in Memory. 
+
+        -> All the Activities We Performed So Sar in this course, 
+        we are dealing with "Non-Persistent" Storage(RAM/MEMORY)
+
+            -> "Non-Persistent" Storage is "Temporary"
+
+        -> Now the Requirement is to wok with "Persistent" Storage(HARD DISK)
+
+            -> "Persistent" Storage is "Permanent"
+
+            -> NOTE: HARD DISK Contains Files & Folders 
         
+        -> File Operations 
+
+            -> CRUD 
+
+                -> C - Create File 
+
+                -> R - Read From File 
+
+                -> U - Update To File 
+
+                -> D - Delete File 
