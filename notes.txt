@@ -1903,3 +1903,47 @@ Class - 32
                 -> U - Update To File 
 
                 -> D - Delete File 
+
+
+Class - 33
+==========
+
+    -> File Management / File Operations 
+
+        -> To Work With Any Type Of File, Python has provided 
+
+            -> open() function 
+
+                -> The built-in open() function in Python is used to open a file on your system 
+                and return a corresponding file object, serving as the foundation for 
+                all file input/output (I/O) operations.
+
+            
+                -> File Opening Modes
+
+                    'r' - Read - Opens a file for reading - Raises FileNotFoundError if missing.
+                    'w' - Write - Creates a file or overwrites it if it already exists.
+                    'a' - Append - Appends data to the end of the file. Creates it if missing.
+                    'x' - Create - Creates a new file. Raises FileExistsError if it exists.
+                    'b' - Binary - Opens the file in binary mode (e.g., images, PDFs) instead of text.
+                    etc 
+
+            -> Syntax - 1 
+
+                file = open("file_path","mode") 
+
+                file = open("file.txt","r") 
+
+                -> NOTE: Here we need to "explicitly close" files 
+                after operations are performed
+
+            -> Syntax - 2 (Recommended)
+
+                with open("file_path","mode") as alias_name:
+                    statements 
+
+                with open("file.txt","r") as alias_name:
+                    statements 
+
+                -> NOTE: Here we don't need to "explicitly close" files 
+                after operations are performed, as it is implicitly closed (auto close)
