@@ -1947,3 +1947,43 @@ Class - 33
 
                 -> NOTE: Here we don't need to "explicitly close" files 
                 after operations are performed, as it is implicitly closed (auto close)
+
+
+Class - 34
+==========
+
+    -> NOTE: We Don't Work With Text Files i.e .txt files in Real World Scenarios 
+
+    -> NOTE: In Real World Applications, We Mostly Use CSV or JSON Files 
+
+    -> Working With CSV Data/Files, for Data Oriented Applications 
+
+    -> Python Has Provided "csv" module to work with CSV Data/Files
+
+        -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+        -> https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+
+    -> The built-in Python csv module allows you to read and write 
+    tabular data in CSV format without installing external libraries.
+
+    -> For Fixed Data Sets, We Can Use "reader" Functionality From csv Module 
+
+        -> students.csv file 
+
+    -> For Changing Data Sets, We Can Use "DictReader" Functionality From csv Module 
+
+        -> sample.scv file (Structured Has Changed)
+
+
+        -> The main components of the csv module are:
+        
+            -> csv.reader(file): Reads CSV data and returns each row as a list of strings.
+        
+            -> csv.writer(file): Writes data to a CSV file from lists.
+            
+            -> csv.DictReader(file): Reads data by mapping the information to a dictionary, 
+            using the first row as field names (keys).
+            
+            -> csv.DictWriter(file, fieldnames): Writes data from a list of dictionaries 
+            to a CSV file, using the dictionary keys as column headers.
