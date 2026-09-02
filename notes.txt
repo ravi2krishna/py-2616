@@ -1987,3 +1987,63 @@ Class - 34
             
             -> csv.DictWriter(file, fieldnames): Writes data from a list of dictionaries 
             to a CSV file, using the dictionary keys as column headers.
+
+
+Class - 35
+==========
+
+    -> Working With JSON Data/Files, for Full Stack Applications 
+
+    -> Python Has Provided "json" module to work with JSON Data/Files
+
+        -> JSON (JavaScript Object Notation) is a lightweight, human-readable, text-based format 
+        for storing and exchanging structured data, using key-value pairs and arrays, 
+        making it ideal for web applications, APIs and Configuration Files (Cloud & DevOps)
+
+        -> JSON represents data as key-value pairs within objects 
+        (enclosed in curly braces {}) -> same as Dictionary in python
+
+            -> https://d33wubrfki0l68.cloudfront.net/0e4bef351d9e23cdb33adba9e491f73db3c9c50c/7dcfe/data.png
+
+            -> https://jsoneditoronline.org/images/news/smart_json_formatting.png
+
+    
+        -> Full Stack Development 
+
+            -> https://d274cmdd0goq94.cloudfront.net/wp-content/uploads/2022/01/3.jpeg
+
+            -> https://images.velog.io/images/kevinkim2586/post/20923cbf-a83e-4857-968f-0b6dffde9a8d/Screen%20Shot%202021-01-14%20at%202.27.47%20PM.png
+
+                
+                -> A Weather API (Application Programming Interface) is a digital bridge 
+                that allows software applications to request and receive live meteorological 
+                data programmatically. Instead of manually collecting satellite imagery or 
+                maintaining physical sensors, developers use a weather API to pull structured 
+                weather data directly into their websites, mobile apps, or enterprise software.
+
+                -> Weather APIs typically deliver data in developer-friendly formats like JSON or XML.
+
+                -> https://docs.tomorrow.io/reference/weather-forecast
+
+            
+            -> Cloud / DevOps Scripting 
+
+                -> https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-visual-studio-code?tabs=CLI
+
+                -> https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ec2-vpc.html
+
+        
+        -> Python's built-in json module allows you to serialize (convert Python objects into JSON) and 
+        deserialize (parse JSON back into Python objects).
+
+        -> The main components of the json module are:
+
+            -> json.dump() - Serializes a Python object to a JSON-formatted file (writes to a file pointer).
+
+            -> json.load()	Deserializes a JSON-formatted file to a Python object (reads from a file pointer).
+
+            -> json.dumps()	Serializes a Python object to a JSON-formatted string ("dump string").
+
+            -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
+
+
