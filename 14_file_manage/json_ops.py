@@ -69,3 +69,50 @@ print(type(string_data))
 python_dict = json.loads(string_data)
 print(python_dict)
 print(type(python_dict))
+
+print("=" * 50)
+
+# Assume We Are Full Stack Developers 
+# Requirement: We Have An API, When Requested We Are Getting JSON Data 
+# API Which Get Users Data From Platform (ecommerce/crm/hrms)- https://dummyjson.com/users
+# Find Number Of Users In Platform 
+
+import requests 
+api_url = 'https://dummyjson.com/users'
+response = requests.get(api_url)
+print(response) # <Response [200]>
+print(response.text) # Response in str format i.e compatible with loads()
+print(type(response.text)) # <class 'str'>
+
+api_data_fetched = response.text
+# Find Number Of Users In Platform
+api_data_dict = json.loads(api_data_fetched)
+print(type(api_data_dict)) # dict 
+print(api_data_dict)
+
+# Fetch Users Info
+all_users = api_data_dict['users']
+print(all_users)
+print(type(all_users)) # <class 'list'>
+
+print("=" * 50)
+
+print("Number Of Users In Platform: ",len(all_users)) 
+
+print("=" * 50)
+
+# Now Give Me All The First Names Of Users In Platform 
+for user in all_users:
+    # print(user)
+    # print("=" * 20)
+    print("First Name: ", user['firstName'])
+
+print("=" * 50)
+
+# Now Give Me All The Young Users(age below 30) In The Platform With Their username
+print("=" * 50)
+print("     Young Users In The Platform")
+print("=" * 50)
+for user in all_users:
+    if user['age'] < 30:
+        print(user['username'],user['age'])

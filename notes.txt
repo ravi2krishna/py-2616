@@ -2047,3 +2047,13 @@ Class - 35
             -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
 
 
+Class - 36
+==========
+
+    -> Working With Full Stack Application Scenario i.e API's 
+    Using JSON Data 
+
+    -> API - https://dummyjson.com/users
+
+    
+
