@@ -2056,4 +2056,12 @@ Class - 36
     -> API - https://dummyjson.com/users
 
     
+Class - 37
+==========
 
+    -> After executing 12_functions/app.py 
+    We can confirm the data is being stored "Temporarily" in Memory. 
+
+    -> Now Will Fix this 
+
+    
