@@ -2065,3 +2065,32 @@ Class - 37
     -> Now Will Fix this 
 
     
+Class - 38
+==========
+
+    -> Exception Handling 
+
+        -> Exception is an "Error", Which Might Occur During Program Execution. 
+
+        -> NOTE: By Default When Python Encounters an Error, It Abruptly 
+        STOPS the Program Execution. 
+
+        -> NOTE: When End Users Looks at Errors Like 
+        # TypeError: unsupported operand type(s) for /: 'int' and 'str'
+        they don't know what the issue is and also stopping program Abruptly
+        causes confusion.
+
+        -> To Change The Default behavior Of Exception Handling, 
+        and handle Exceptions Your Way, We Need Following 
+
+            -> try: used to keep the code, that will cause error 
+
+            -> except: used to keep the code, that should run when error occurs 
+
+            -> NOTE: use Multiple except blocks, When We Have Multiple Errors 
+
+            -> else: used to keep the code that should run, if No Exception was raised in try block
+
+            -> finally: used to keep the code that should run, whether an exception raised or not 
+
+                -> DB / Files -> closing connections will be in done in finally block 
