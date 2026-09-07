@@ -169,3 +169,48 @@ finally:
 print("======= Program Execution Completed =======")
 
 print("=" * 50) 
+
+# Without User Defined Exceptions
+age = int(input("Enter Your Age: "))
+if age < 18:
+    print("You Cannot Vote")
+else:
+    print("You Can Vote")
+    
+print("=" * 50) 
+
+# With User Defined Exceptions
+class UnderAgeError(Exception):
+    pass 
+
+age = int(input("Enter Your Age: "))
+if age < 18:
+    # print("You Cannot Vote")
+    # raise TypeError # Unrelated Error
+    # raise UnderAgeError # ZeroDivisionError: division by zero
+    raise UnderAgeError("Below 18 Cannot Vote")
+else:
+    print("You Can Vote")
+    
+print("=" * 50) 
+
+print("=" * 50) 
+
+# With User Defined Exceptions
+class UnderAgeError(Exception):
+    pass 
+
+age = int(input("Enter Your Age: "))
+try:
+    if age < 18:
+        # print("You Cannot Vote")
+        # raise TypeError # Unrelated Error
+        # raise UnderAgeError # ZeroDivisionError: division by zero
+        raise UnderAgeError("Below 18 Cannot Vote")
+except UnderAgeError:
+    print("You Are Not 18 Yet")
+else:
+    print("You Can Vote")
+finally:
+    print("Closing Program")   
+print("=" * 50) 

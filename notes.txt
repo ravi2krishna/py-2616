@@ -2094,3 +2094,29 @@ Class - 38
             -> finally: used to keep the code that should run, whether an exception raised or not 
 
                 -> DB / Files -> closing connections will be in done in finally block 
+
+
+Class - 39
+==========
+
+    -> Exception Handling Continued 
+
+        -> raise: Used To Trigger Exceptions By User 
+
+        -> Earlier we worked with In built Exceptions provided as part of 
+        python standard library (ZeroDivisionError, IndexError, ValueError, TypeError etc)
+
+            -> https://docs.python.org/3/library/exceptions.html 
+
+        -> Sometimes You Need Your "Own Custom Exceptions" which describes 
+        the situation specific to your program
+
+            -> We Need To Create  Custom Exceptions by "Defining a class"
+            which inherits from pythons built-in Exception Class(Inheritance) 
+
+        -> NOTE: All User Defined Exceptions Should Be Derived From Exception Class
+
+            -> Syntax 
+
+                class MyCustomError(Exception):
+                    pass     
