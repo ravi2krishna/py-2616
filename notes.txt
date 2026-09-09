@@ -2332,4 +2332,110 @@ Class - 40
             -> this in java == self in python 
 
 
+Class - 41
+==========
+
+    -> Constructors 
+
+        -> In Python, the constructor is a "special method" used to 
+        initialize a newly created object's attributes.
+
+        -> This method(Constructor) is special, as it's automatically called 
+        when you create a new instance/object of a class. 
+
+        -> The Special method used for this purpose is named __init__()
+
+        -> The __init__() method or constructor defines 
+        the actions that should run as soon as an object is created
+
+        -> NOTE: __init__() is defined within a class and always takes "self" as its
+        first parameter, which refers to Instance of object being created
+
+        -> __init__() can Additionally take other parameters to receive values 
+        for initializing objects attributes 
+
+        -> Syntax 
+
+            class ClassName:
+                # constructor 
+                def __init__(self,parameter1,parameter2,...):
+                    self.parameter1 = parameter1
+                    self.parameter2 = parameter2
+
+        
+
+    -> Instance Members (Associated With Objects)
+
+        -> Instance Variables
+
+            -> Instance Variables belongs to an "object" i.e instance, not the class 
+
+            -> Instance Variables are defined in the __init__ method using "self" keyword 
+
+            -> Each Object you create has it's own copy of instance variable with different values 
+
+            -> Instance Variables are accessed via self.variable_name
+
+            -> Syntax 
+
+                class Demo:
+                    def __init__(self,parameter):
+                        self.instance_variable = value 
+
+
+        -> Instance Method 
+
+            -> Methods which are defined inside a class 
+            which operates on instance variables.
+
+            -> Instance Methods are "very commonly used" types of methods in OOP 
+
+            -> Instance Methods always take "self" as the first parameter 
+
+            -> NOTE: Instance Methods can access instance variables and also class variables too 
+
+
+    -> Class Members (Associated With Class)
+
+        -> Class Variables 
+
+            -> Class Variables are "shared across all the instances of class" 
+            i.e "shared by all the objects" of the class 
+
+            -> Class Variables belong to class, rather than objects, 
+            ideal for storing data that is common/fixed for all objects 
+
+            -> Defined inside the class, but outside the methods 
+
+            -> Accessed using Classname.variable_name or object.variable_name
+
+                -> Recommended is using Classname.variable_name 
+
+            -> NOTE: Class Variables are "memory efficient" as 
+            only one copy is there unlike multiple copies like objects 
+
+            -> Syntax 
+
+                -> Class Demo:
+                    class_variable = "Shared Data"
+
+        
+        -> Class Methods 
+
+            -> Methods which are defined inside a class 
+            which operates on class variables
+
+            -> Class Methods are "not very commonly used" types of methods in OOP 
+
+            -> Class Methods always take "cls" as the first parameter 
+
+            -> Class Methods are defined using @classmethod decorator 
+
+            -> Class Methods Can Access Only Class Variables 
+
+                -> NOTE: Accessing Instance Variables inside class methods gives Error 
+
+            -> Called using ClassName.method() 
+
+
 
