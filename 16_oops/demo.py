@@ -191,6 +191,8 @@ student_john.student_studies()
 student_mike = Student("Mike","mike@gmail.com")
 student_mike.student_studies()
 
+print("=" * 50)
+
 # self - instance of current class
 # Class - Blue Print 
 # Working With Multiple Objects Using Constructor
@@ -248,3 +250,67 @@ student_john.student_studies()
 
 student_mike = Student("Mike","mike@gmail.com")
 student_mike.student_studies()
+
+print("=" * 50)
+
+# self - instance of current class
+# Class - Blue Print 
+# Working With Multiple Objects Using Constructor
+# Working With Instance Variables & Instance Methods
+# Working With Class Variables & Class Methods
+# WOrking With Static Methods 
+class Student:
+    
+    # Class Variable - Shared By All Objects 
+    institute_name = "Digital Institute"
+    
+    # Constructor
+    def __init__(self,student_name,student_email):
+        print("Constructor Call")
+        # Define Instance Variables self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+        
+    # Student Does Something - Behaviors / Actions (Methods)
+    # Below is an instance method 
+    def student_studies(self):
+        print("Student is studying Python")
+        # Calling Class Variables
+        # print("Institute Is: ",self.institute_name) # Not Recommended Style 
+        print("Institute Is: ",Student.institute_name) # Recommended Style 
+        # Calling Instance Variables
+        print("Student Name: ",self.student_name) # Recommended Style 
+        print("Student Email: ",self.student_email) # Recommended Style
+        
+    
+    # Class Method
+    @classmethod
+    def change_institute_name(cls,new_institute_name):
+        cls.institute_name = new_institute_name
+        # print("Student Name: ",self.student_name) # Accessing Instance Variables inside class methods gives Error 
+    
+    @staticmethod
+    def something_not_related():
+        print("I Do Something That Is Not Associated With Classes & Objects")
+    
+    # Email Validation Utility
+    @staticmethod
+    def validate_email(email):
+        return "@" in email and "." in email
+        
+# To Use Class, Object is Required 
+student_ravi = Student("Ravi","ravi2krishna@gmail.com")
+student_ravi.student_studies()
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies()
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies()
+
+# Calling Static Methods
+Student.something_not_related()
+
+print(Student.validate_email("ravi.com"))
+print(Student.validate_email("ravi@com"))
+print(Student.validate_email("ravi@gmail.com"))

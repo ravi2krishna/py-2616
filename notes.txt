@@ -2438,4 +2438,52 @@ Class - 41
             -> Called using ClassName.method() 
 
 
+Class - 42
+==========
 
+    -> Static Members (NOT Associated With Objects & Classes)
+
+        -> NOTE: In Python We Don't Have Static Variables 
+
+        -> Static Variables In Other Languages == Class Variables In Python 
+
+        -> Static Methods 
+
+            -> Static Methods are not bound to either class or object 
+
+            -> Static Methods does not depend on instance variable or class variable 
+
+        -> Not Very Commonly Used Methods 
+
+        -> These Methods Don't take self or cls as first parameter 
+
+        -> NOTE: Static Methods Behave Like Normal Functions, but present 
+        inside the class 
+
+        -> NOTE: Used as Helper/Utility Functions 
+        (Like a Calculator Utility For Student)
+        This Calculator Utility Will Not Touch 
+        instance variable or class variable 
+
+        -> Declared Using @staticmethod decorator
+
+        -> Called Using ClassName 
+
+
+
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the 
+        Properties(Variables) and Behaviors(Methods) from an 
+        existing class, called as Super Class or Parent Class.
+
+        -> NOTE: Main Purpose Of Inheritance Is "CODE Reusability"
+
+        -> Syntax 
+
+            class Parent:
+                statements 
+
+            class Child(Parent):
+                statements 
