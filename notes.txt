@@ -2487,3 +2487,94 @@ Class - 42
 
             class Child(Parent):
                 statements 
+
+
+Class - 43
+==========
+
+    -> Types Of Inheritance 
+
+        -> Single Level Inheritance
+
+            -> One Parent -> One Child 
+
+        -> Multi Level Inheritance
+
+            -> GrandParent -> Parent -> Child 
+
+        -> Multiple Inheritance
+
+            -> One Child -> Multiple Parents 
+
+        -> Hierarchical Inheritance
+
+            -> One Parent -> Multiple Child 
+
+        -> Hybrid Inheritance
+
+            -> Combination Of Types
+
+
+    -> Encapsulation 
+
+        -> Encapsulation is a core concept in object-oriented programming (OOP) that "binds"
+        Properties(Variables) and Behaviors(Methods) into a single unit called "Class".  
+
+            -> NOTE: Binding Of Properties(Variables) and Behaviors(Methods) is done in Classes 
+
+            -> https://www.cincom.com/wp-content/uploads/2025/08/ENCAPSULATION-01.webp
+
+        -> Encapsulation process also involves "restricting" direct access to an 
+        object's internal state, which is a principle known as "data hiding".
+
+        -> Other Languages like Java or C++ "enforces" Strict Rules for Encapsulation,  
+        coming to python there is no Strict enforcing.
+
+            -> Java/C++ = “You’re not allowed” 
+
+            -> Python = “You shouldn’t, but you can if you insist”
+
+        -> NOTE: Python intentionally does not enforce strict runtime access modifiers 
+        like Java or C++ do. It relies instead on naming conventions and a 
+        community philosophy famously summarized by Python's creator, Guido van Rossum, 
+        as "we are all consenting adults here". 
+        This means Python assumes developers are responsible enough to 
+        respect visibility indicators rather than forcing the interpreter to 
+        build rigid walls around code.
+
+        -> While Python does not have strict access modifiers like 
+        "public", "private" or "protected" 
+        keywords found in some other languages(java, c++), 
+    
+        
+        -> Hiding Data 
+
+            -> We have public access 
+
+                -> Without any special naming conventions or prefixes 
+                are considered as public and can be accessed from anywhere 
+
+            -> We have private access 
+
+                -> prefixed with a double underscore (__)
+
+                -> cannot be accessed from outside 
+
+            
+            -> We have protected access 
+
+                -> prefixed with a single underscore (_)
+
+                -> cannot be accessed from outside, but can be accessed in sub classes 
+
+    -> NOTE: The Prefixes like __ and _ are signals to other Developers that 
+    the attributes are intended for internal use only 
+
+   
+    -> NOTE: Python Uses Naming Conventions To Indicate visibility of data 
+
+        -> public -> No Special Naming Convention -> self.name -> Accessible From Any Where 
+
+        -> private -> Special Naming Convention __ (double underscore) -> self.__password -> Accessible Only Within Class 
+
+        -> protected -> Special Naming Convention _ (single underscore) -> self._location -> Accessible Only Within Class & Subclasses 
