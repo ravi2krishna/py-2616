@@ -2578,3 +2578,109 @@ Class - 43
         -> private -> Special Naming Convention __ (double underscore) -> self.__password -> Accessible Only Within Class 
 
         -> protected -> Special Naming Convention _ (single underscore) -> self._location -> Accessible Only Within Class & Subclasses 
+
+
+
+Class - 44
+==========
+
+    -> Abstraction 
+
+        -> Abstraction in OOP is a principle that involves "hiding" complex "implementation" 
+        details and showing only the essential features of an object to the user.
+
+        -> Hiding implementation: means "hiding the internal workings" of an object 
+        and present a simplified view. 
+
+        -> For example, when using an ATM, 
+        you only  interact with a simple interface (card, PIN, cash dispenser) without needing 
+        to know the complex process of backend banking operations that occur. 
+
+            -> No Abstraction
+
+                -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcKKhNUTJx8C2QfcfH_95uu5Zf79wsgimIBnNN7xTtI-xqlJG-6NqWSuh&s=10
+
+            -> Abstraction
+
+                -> https://backend.paiinternational.in/media/images/KK_ruIfgzx.webp
+
+    
+        -> How To achieve Abstraction In Python 
+
+            -> Using Abstract Classes & Abstract Methods 
+
+            -> NOTE: Till now what ever the classes we created so far, are Concrete Classes 
+
+        -> An Abstract Class In Python Functions as a "blueprint" for Other Classes,
+        defining a common structure that subclasses must adhere to.
+
+        -> NOTE: Abstract Classes help you enforce Contract Like Behaviors (Bind By Contracts)
+
+        -> NOTE: Abstract Class cannot be instantiated directly, meaning you 
+        cannot create objects to Abstract Class 
+
+        -> Abstract classes are Implemented in Python Using 
+        "abc" module (Abstract Base Class)
+
+            -> from abc import ABC, abstractmethod 
+
+        -> NOTE: To Achieve abstraction, Create a class that inherits from ABC, 
+        inside this class define one or more abstract methods using @abstractmethod decorator.
+
+        -> NOTE: abstract methods have declarations, but no implementation 
+        they typically contain only pass  
+
+        -> NOTE: Abstraction in OOP is a principle that involves 
+        "hiding" complex "implementation"
+
+         -> Implement Subclasses: Create Concrete Subclasses (Regular Classes)
+        that inherit from abstract class, these Subclasses must Implement 
+        all abstract methods which are defined in abstract class.
+        If a subclass fails to Implement any abstract method, it will also
+        become abstract class and cannot be instantiated
+
+
+    
+    
+    -> Polymorphism
+
+        -> Polymorphism in OOP is the ability to take on "many forms"
+
+        -> Polymorphism (from the Greek for "many forms") is the ability of an entity, 
+        such as an object, method to take on different forms or 
+        behave differently depending on the context in which it is used.
+
+        -> Bat: 
+
+            -> Sports: A Wooden thing used to hit a ball.
+
+            -> Animal: An Night Time Flying Mammal.
+
+        -> https://phptutorial.net/wp-content/uploads/2021/03/PHP-Polymorphism-Abstract-Class.svg    
+
+        -> https://i.pinimg.com/736x/82/a1/d0/82a1d0f1c4f21a4ebb8544c6f90435f9.jpg
+
+    
+    -> Polymorphism is achieved through techniques like 
+    "Method overloading" and "Method overriding"
+
+        -> Method Overloading
+
+            -> Method Overloading in OOP is the ability to 
+            "define multiple methods with the same name", but different parameter lists 
+            (number, type, or order of arguments) within a single class
+
+            -> https://media.licdn.com/dms/image/v2/D5612AQFCbTOnfX5Vmg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1705375013206?e=2147483647&v=beta&t=GUFAPU8JiBNDHXXITJd73TFJwb4fgmeE4DPW6UiiY9A
+
+            -> Python Doesn't Support Method Overloading 
+
+        
+        -> Method Overriding    
+
+            -> When a subclass provides a new implementation 
+            of a method that already exists in parent class. 
+
+    
+    -> Polymorphism In Real World Application
+
+        -> https://images.news18.com/ibnlive/uploads/2018/02/Amazon-India-UPI-Payment-Option.jpg    
